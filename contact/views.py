@@ -18,6 +18,7 @@ class ContactFormView(View):
             email = data.get('email')
             phone = data.get('phone')
             message = data.get('message')
+            location = data.get('location')
 
             # Save to DB
             ContactMessage.objects.create(
@@ -26,6 +27,7 @@ class ContactFormView(View):
                 email=email,
                 phone=phone,
                 message=message,
+                location=location
             )
 
             # Site owner emails and sender from .env
@@ -53,7 +55,7 @@ class ContactFormView(View):
                     f"Hi {first_name},\n\n"
                     "Thank you for reaching out to us. We have received your message and will get back to you shortly.\n\n"
                     "Best regards,\n"
-                    "V R Enterprises Team."
+                    "VR PROPERTY SOLUTION Team."
                 ),
                 from_email=sender_email,
                 recipient_list=[email],
