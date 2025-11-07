@@ -41,7 +41,9 @@ class ContactFormView(View):
                     f"Name: {first_name} {last_name}\n"
                     f"Email: {email}\n"
                     f"Phone: {phone}\n\n"
+                    f"Location:\n{location}"
                     f"Message:\n{message}"
+                    
                 ),
                 from_email=sender_email,
                 recipient_list=site_owner_emails,
