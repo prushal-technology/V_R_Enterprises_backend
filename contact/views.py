@@ -57,7 +57,7 @@ class ContactFormView(View):
                     f"Hi {first_name},\n\n"
                     "Thank you for reaching out to us. We have received your message and will get back to you shortly.\n\n"
                     "Best regards,\n"
-                    "VR PROPERTY SOLUTION Team."
+                    "VR PROPERTY SOLUTIONS Team."
                 ),
                 from_email=sender_email,
                 recipient_list=[email],
