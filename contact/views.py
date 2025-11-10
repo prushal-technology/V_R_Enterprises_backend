@@ -77,6 +77,7 @@ Hi {first_name},
 Thank you for reaching out to us. We’ve received your message and our team will get back to you shortly.
 
 If your enquiry is urgent, please contact us directly through the details mentioned on our website.
+https://vrpropertysol.com/
 
 Best regards,
 VR Property Solutions Team
