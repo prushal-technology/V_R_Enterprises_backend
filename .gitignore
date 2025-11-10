@@ -4,3 +4,12 @@ venv/
 .venv/
 *.pyc
 __pycache__/
+*.py[cod]
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+media/
+staticfiles/
